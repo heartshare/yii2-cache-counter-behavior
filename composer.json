@@ -1,0 +1,17 @@
+{
+    "name": "ostapetc/Yii2CacheCounterBehavior",
+    "description": "Cache counter behavior",
+    "keywords": ["yii", "yii2", "behavior", "related model count"],
+    "authors": [
+        {
+            "name": "Artem Ostapetc",
+            "email": "artemostapetc@gmail.com",
+            "role": "author"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "dev-master"
+    }
+}
