@@ -35,8 +35,8 @@ The SQL being executed was: INSERT INTO `posts` (`title`) VALUES ('post 1') [] [
 [2013-11-19 14:35:30] BehaviorTest::testCreatePostsAndComments.INFO: # ERROR # [] []
 [2013-11-19 14:35:30] BehaviorTest::testCreatePostsAndComments.INFO: PASSED [] []
 [2013-11-19 14:40:59] BehaviorTest::testCreatePostsAndComments.INFO: PASSED [] []
-[2013-11-19 14:46:37] BehaviorTest::testCreatePostsAndComments.ALERT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments_count' in 'field list'
-The SQL being executed was: UPDATE `posts` SET `comments_count`=`comments_count`+1 WHERE `id`='1' [] []
+[2013-11-19 14:46:37] BehaviorTest::testCreatePostsAndComments.ALERT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'commentsCount' in 'field list'
+The SQL being executed was: UPDATE `posts` SET `commentsCount`=`commentsCount`+1 WHERE `id`='1' [] []
 [2013-11-19 14:46:37] BehaviorTest::testCreatePostsAndComments.INFO: # ERROR # [] []
 [2013-11-19 14:46:37] BehaviorTest::testCreatePostsAndComments.INFO: PASSED [] []
 [2013-11-19 14:49:48] BehaviorTest::testCreatePostsAndComments.INFO: PASSED [] []
@@ -60,3 +60,4 @@ The SQL being executed was: UPDATE `posts` SET `comments_count`=`comments_count`
 [2013-11-19 15:09:21] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
 [2013-11-19 15:09:43] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
 [2013-11-19 16:25:19] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
+[2013-11-19 16:29:53] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []

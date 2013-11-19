@@ -53,7 +53,7 @@ class Comment extends \yii\db\ActiveRecord
                 'counters' => [
                     [
                         'model'      => 'Post',
-                        'attribute'  => 'comments_count',
+                        'attribute'  => 'commentsCount',
                         'foreignKey' => 'postId'
                     ]
                 ]

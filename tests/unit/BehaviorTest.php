@@ -27,8 +27,8 @@ class BehaviorTest extends \Codeception\TestCase\Test
             $post_with_comments->refresh();
             $post_without_comments->refresh();
 
-            $this->assertEquals($post_with_comments->comments_count, $i);
-            $this->assertEquals($post_without_comments->comments_count, 0);
+            $this->assertEquals($post_with_comments->commentsCount, $i);
+            $this->assertEquals($post_without_comments->commentsCount, 0);
         }
 
         //Delete all comments, ensure counter decrements
@@ -39,7 +39,7 @@ class BehaviorTest extends \Codeception\TestCase\Test
             $this->assertEquals($comment->delete(), 1);
             $count--;
             $post_with_comments->refresh();
-            $this->assertEquals($post_with_comments->comments_count, $count);
+            $this->assertEquals($post_with_comments->commentsCount, $count);
         }
     }
 }

@@ -39,7 +39,7 @@ class Comment extends \yii\db\ActiveRecord
                 'counters' => [
                     [
                         'model'      => 'Post',
-                        'attribute'  => 'comments_count',
+                        'attribute'  => 'commentsCount',
                         'foreignKey' => 'postId'
                     ]
                 ]
@@ -54,4 +54,8 @@ $comment->text   = 'blabla';
 $comment->save();
 
 $post = Post::find(1);
-echo $post->comments_count; # will display 1
+echo $post->commentsCount; # will display 1
+
+NOTICE
+-------------
+commentsCount counter will not be updated if you use deleteAll, updateAll methods.

@@ -24,7 +24,7 @@ class Post extends \yii\db\ActiveRecord
 		return [
 			['title', 'required'],
 			['title', 'string', 'max' => 200],
-            ['comments_count', 'default', 'value' => 0]
+            ['commentsCount', 'default', 'value' => 0]
         ];
 	}
 
