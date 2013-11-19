@@ -46,7 +46,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.025575448" vertical-offset="0" max-vertical-offset="782">
+            <state line="1" column="8" selection-start="23" selection-end="23" vertical-scroll-proportion="0.025575448" vertical-offset="0" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -329,8 +329,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="32" selection-start="824" selection-end="824" vertical-scroll-proportion="1.0832232" vertical-offset="60" max-vertical-offset="1260">
           <folding>
-            <element signature="e#6#82#0" expanded="true" />
-            <element signature="e#129#164#0" expanded="true" />
+            <element signature="e#6#82#0" expanded="false" />
+            <element signature="e#129#164#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -358,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.025575448" vertical-offset="0" max-vertical-offset="782">
+        <state line="1" column="8" selection-start="23" selection-end="23" vertical-scroll-proportion="0.025575448" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
