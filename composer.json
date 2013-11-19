@@ -1,5 +1,5 @@
 {
-    "name": "ostapetc/Yii2CacheCounterBehavior",
+    "name": "ostapetc/yii2-cache-counter-behavior",
     "description": "Cache counter behavior",
     "keywords": ["yii", "yii2", "behavior", "related model count"],
     "authors": [
