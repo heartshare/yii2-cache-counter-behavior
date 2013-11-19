@@ -5,13 +5,14 @@
  * Date: 19.11.13
  * Time: 13:10
  */
-namespace ostapetc\Yii2CacheCounterBehavior;
+
+namespace ostapetc\yii2\behaviors;
 
 use yii\base\InvalidParamException;
 use yii\db\ActiveRecord;
 
 
-class Behavior extends \yii\base\Behavior
+class CounterCacheBehavior extends \yii\base\Behavior
 {
     public $counters;
 

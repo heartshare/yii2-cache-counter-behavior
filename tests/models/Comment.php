@@ -7,7 +7,7 @@
  * @property string $text
  */
 
-require_once 'Behavior.php';
+require_once 'yii2/behaviors/CounterCacheBehavior.php';
 
 
 class Comment extends \yii\db\ActiveRecord
@@ -49,7 +49,7 @@ class Comment extends \yii\db\ActiveRecord
     {
         return [
             'cacheCounters' => [
-                'class'    => 'ostapetc\Yii2CacheCounterBehavior\Behavior',
+                'class'    => 'ostapetc\yii2\behaviors\CounterCacheBehavior',
                 'counters' => [
                     [
                         'model'      => 'Post',

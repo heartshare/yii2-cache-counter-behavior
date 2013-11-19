@@ -61,3 +61,5 @@ The SQL being executed was: UPDATE `posts` SET `commentsCount`=`commentsCount`+1
 [2013-11-19 15:09:43] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
 [2013-11-19 16:25:19] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
 [2013-11-19 16:29:53] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
+[2013-11-19 17:54:05] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
+[2013-11-19 17:55:28] BehaviorTest::testCounterIncrementsAndDecrementsWhen.INFO: PASSED [] []
