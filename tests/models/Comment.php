@@ -12,8 +12,6 @@ require_once 'Behavior.php';
 
 class Comment extends \yii\db\ActiveRecord
 {
-    public $parentCommentId;
-
 	/**
 	 * @inheritdoc
 	 */
