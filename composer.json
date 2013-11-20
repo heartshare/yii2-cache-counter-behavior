@@ -15,5 +15,10 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ostapetc\\yii2\\behaviors\\": "src/"
+        }
     }
 }
