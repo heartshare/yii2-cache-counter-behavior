@@ -9,6 +9,7 @@ EXAMPLE
 -------------
 We have "Post" and "Comment" models, "Post" has many "Comment":
 
+```
 class Post extends \yii\db\ActiveRecord
 {
     public function getComments()
@@ -16,7 +17,9 @@ class Post extends \yii\db\ActiveRecord
         return $this->hasMany('Comment', ['postId' => 'id']);
     }
 }
+```
 
+```
 class Comment extends \yii\db\ActiveRecord
 {
 	public function attributeLabels()
@@ -44,7 +47,9 @@ class Comment extends \yii\db\ActiveRecord
         ];
     }
 }
+```
 
+```
 $comment = new Comment();
 $comment->postId = 1;
 $comment->text   = 'blabla';
@@ -52,6 +57,7 @@ $comment->save();
 
 $post = Post::find(1);
 echo $post->commentsCount; # will display 1
+```
 
 NOTICE
 -------------
