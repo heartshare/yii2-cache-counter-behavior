@@ -19,9 +19,6 @@ class Post extends \yii\db\ActiveRecord
 
 class Comment extends \yii\db\ActiveRecord
 {
-	/**
-	 * @inheritdoc
-	 */
 	public function attributeLabels()
 	{
 		return [
