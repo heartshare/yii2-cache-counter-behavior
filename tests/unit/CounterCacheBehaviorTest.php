@@ -5,7 +5,7 @@ require_once 'tests/models/Post.php';
 require_once 'tests/models/Comment.php';
 
 
-class BehaviorTest extends \Codeception\TestCase\Test
+class CounterCacheBehaviorTest extends \Codeception\TestCase\Test
 {
     public function testCounterIncrementsAndDecrementsWhen()
     {

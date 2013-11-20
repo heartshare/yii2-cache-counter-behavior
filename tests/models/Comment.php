@@ -7,7 +7,7 @@
  * @property string $text
  */
 
-require_once 'yii2/behaviors/CounterCacheBehavior.php';
+require_once 'src/ostapetc/yii2/behaviors/CounterCacheBehavior.php';
 
 
 class Comment extends \yii\db\ActiveRecord
