@@ -1,7 +1,7 @@
 Yii2CacheCounterBehavior
 ========================
 
-DOCUMENTATION
+DESCRIPTION
 -------------
 If you need to display the record count for a has_many association, you can improve performance by caching that number in a column.
 
@@ -61,4 +61,18 @@ echo $post->commentsCount; # will display 1
 
 NOTICE
 -------------
-commentsCount counter will not be updated if you use deleteAll, updateAll methods.
+1) commentsCount counter will not be updated if you use deleteAll, updateAll methods.
+
+2) If you already have data in tables you should run console controller command to update counters.
+Add controller to config/console.php controller map:
+```
+'controllerMap' => [
+    'UpdateCacheCounters' => 'ostapetc\yii2\console\controllers\UpdateCacheCountersController'
+]
+```
+
+and run:
+```
+./yii UpdateCacheCounters app\\models\\Comment
+```
+
