@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "ostapetc\\yii2\\behaviors\\": "src/"
+            "ostapetc\\yii2\\": "src/"
         }
     }
 }
